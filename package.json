@@ -1,0 +1,13 @@
+{
+  "name": "smartfarm-assistant",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SmartFarm AI assistant - static frontend + Vercel serverless API",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "@google/genai": "^1.19.0"
+  }
+}

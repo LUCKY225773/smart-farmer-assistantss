@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": false,
+  "functions": {
+    "api/farmer-chat.js": {
+      "maxDuration": 30
+    }
+  },
+  "outputDirectory": "public"
+}
